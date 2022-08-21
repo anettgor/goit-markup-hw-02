@@ -39,7 +39,11 @@ a:active {
   color: var(--blue);
 }
 
-/* menu */
+/* nav */
+
+.menu {
+  border-bottom: 1px solid #ececec;
+}
 
 .navbar__item {
   font-family: "Roboto", sans-serif;
@@ -103,6 +107,9 @@ a:active {
 }
 
 /* containter Czym się zajmujemy */
+.container-team {
+  background: #f5f4fa;
+}
 .container-img__title,
 .containter-team__title {
   font-size: 36px;
@@ -114,12 +121,17 @@ a:active {
 
 .container-team__name {
   font-weight: 500;
-  line-height: 1.19;
 }
 .container-team__occupation {
   color: var(--grey);
-  text-align: center;
+}
+
+.container-team__tag {
+  background: var(--white);
   line-height: 1.19;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 /* Portfolio section */
