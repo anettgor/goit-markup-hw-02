@@ -1,116 +1,132 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --blue: #2196f3;
+  --grey: #757575;
+  --darkgrey: #212121;
+  --graphite: #2f303a;
+  --lightgrey: #e5e5e5;
+  --productborder: #eeeeee;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
-  font-size: 16px;
+  color: var(--darkgrey);
   letter-spacing: 0.03em;
 }
 ul {
   list-style: none;
 }
 
-/* logo  */
+/* logo and links */
+
 a:link,
 a:visited,
 a:hover,
 a:active {
   text-decoration: none;
-  color: #757575;
+  color: var(--grey);
 }
 
 .logo {
-  color: #000;
+  color: var(--black);
   font-weight: 700;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
-  line-height: 1;
+  line-height: 1.19;
 }
 .logo__accent {
-  color: #2196f3;
+  color: var(--blue);
 }
 
 /* menu */
 
-.navigation__item {
-  font-family: "Roboto";
+.navbar__item {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.navigation__item:active {
-  color: #2196f3;
+.navbar__item:active,
+.navbar__item:focus {
+  color: var(--blue);
 }
 /* footer */
 .footer {
-  background: #2f303a;
+  background: var(--graphite);
 }
 .footer-address__address {
-  color: #fff;
-  line-height: 171%;
+  color: var(--white);
+  line-height: 1.71;
 }
 
 /* banner */
 .banner {
-  background: #2f303a;
+  background: var(--graphite);
   width: 1600px;
   height: 600px;
   left: 0px;
   top: 80px;
 }
 .banner__title {
-  color: #fff;
+  color: var(--white);
   letter-spacing: 0.06em;
   font-size: 44px;
   font-weight: 900;
-  line-height: 116%;
+  line-height: 1.36;
+  text-transform: uppercase;
 }
 
 .banner__button {
-  color: white;
-  background: #2196f3;
+  color: var(--white);
+  background: var(--blue);
   width: 200px;
   height: 50px;
   padding: 10px 42px;
-  line-height: 160%;
+  line-height: 1.88;
+  cursor: pointer;
 }
 
 /* container with lorem ipsums */
 .container__title {
   font-weight: 700;
   font-size: 14px;
-  text-transform: uppercase;
+  line-height: 1.14;
 }
 
 .container__content {
-  line-height: 171%;
-  color: #757575;
+  line-height: 1.71;
+  font-size: 14px;
+  color: var(--grey);
 }
 
 /* containter Czym się zajmujemy */
-.container-img__title {
-  color: #212121;
+.container-img__title,
+.containter-team__title {
   font-size: 36px;
   font-weight: 700;
+  line-height: 1.67;
 }
 
 /* containter - team */
 
 .container-team__name {
   font-weight: 500;
+  line-height: 1.19;
 }
 .container-team__occupation {
-  color: #757575;
+  color: var(--grey);
   text-align: center;
+  line-height: 1.19;
 }
 
 /* Portfolio section */
 .button__btn {
   font-weight: 500;
   text-align: center;
-  color: #212121;
-  line-height: 139%;
-
+  line-height: 1.62;
   padding: 6px 22px;
   border: none;
   background: #f5f4fa;
@@ -118,14 +134,15 @@ a:active {
   cursor: pointer;
 }
 
-.button__btn:active {
-  color: #fff;
-  background: #2196f3;
+.button__btn:active,
+.button__btn:focus {
+  color: var(--white);
+  background: var(--blue);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 .portfolio-container__item {
   box-sizing: border-box;
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--productborder);
 }
