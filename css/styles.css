@@ -76,7 +76,6 @@ ul {
 .footer {
   background: var(--graphite);
   font-size: 14px;
-  letter-spacing: 0.03em;
   line-height: 1.19;
 }
 .footer__address {
@@ -196,7 +195,6 @@ ul {
 .portfolio-container__text {
   color: var(--grey);
   line-height: 1.88;
-  letter-spacing: 0.03em;
 }
 .portfolio-container__heading {
   line-height: 2;
