@@ -21,12 +21,6 @@ ul {
 
 /* logo and links */
 
-.link-no-underline {
-  text-decoration: none;
-}
-.link-underline {
-  text-decoration: underline;
-}
 .logo,
 .footer__logo {
   font-weight: 700;
@@ -50,6 +44,10 @@ ul {
 }
 .contact-link {
   color: var(--grey);
+}
+
+.link-no-underline {
+  text-decoration: none;
 }
 
 /* nav and footer*/
