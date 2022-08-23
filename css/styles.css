@@ -112,6 +112,7 @@ ul {
   color: var(--white);
   background: var(--blue);
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
   border: none;
   width: 200px;
   height: 50px;
@@ -148,6 +149,7 @@ ul {
 
 .container-team__name {
   font-weight: 500;
+  font-size: 16px;
 }
 .container-team__occupation {
   color: var(--grey);
@@ -174,6 +176,7 @@ ul {
   border-radius: 4px;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 
 .button__btn:hover,
@@ -196,6 +199,7 @@ ul {
   line-height: 1.88;
 }
 .portfolio-container__heading {
+  font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   font-weight: 700;
