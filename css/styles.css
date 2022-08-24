@@ -3,7 +3,7 @@
   --black: #000;
   --blue: #2196f3;
   --grey: #757575;
-  --darkgrey: #212121;
+  --charcoal: #212121;
   --graphite: #2f303a;
   --lightgrey: #e5e5e5;
   --productborder: #eeeeee;
@@ -12,9 +12,16 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--darkgrey);
+  color: var(--charcoal);
   letter-spacing: 0.03em;
 }
+
+button {
+  font-family: inherit;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 ul {
   list-style: none;
 }
@@ -40,7 +47,7 @@ ul {
 }
 
 .link-style {
-  color: var(--darkgrey);
+  color: var(--charcoal);
 }
 .contact-link {
   color: var(--grey);
@@ -57,7 +64,6 @@ ul {
 }
 
 .navbar__item {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -111,14 +117,11 @@ ul {
 .banner__button {
   color: var(--white);
   background: var(--blue);
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
   border: none;
   width: 200px;
   height: 50px;
   padding: 10px 42px;
   line-height: 1.88;
-  cursor: pointer;
 }
 
 /* container with lorem ipsums */
@@ -174,9 +177,6 @@ ul {
   border: none;
   background: #f5f4fa;
   border-radius: 4px;
-  cursor: pointer;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
 }
 
 .button__btn:hover,
